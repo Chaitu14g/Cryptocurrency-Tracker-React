@@ -1,0 +1,39 @@
+.singleListContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  margin-left: 0px;
+  padding-left: 20px;
+}
+
+.singleImage {
+  height: 30px;
+  width: 30px;
+  margin-right: 20px;
+}
+
+.singlePara {
+  font-size: 10px;
+  color: #ffffff;
+  margin-right: 20px;
+  width: 20%;
+}
+
+.singleParaUnique {
+  margin-right: auto;
+}
+
+@media (min-width: 767px) {
+  .singlePara {
+    font-size: 15px;
+    color: #ffffff;
+    margin-right: 20px;
+    width: 20%;
+  }
+
+  .singleParaUnique {
+    margin-right: auto;
+  }
+}
